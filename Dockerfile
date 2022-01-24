@@ -20,6 +20,7 @@ USER app_user
 # docker build -t iscc_demo --rm  .
 # docker run -it --name iscc-client  -rm iscc_demo
 # app_user@6a8e836b3f0c:~$ python my_script.py argument1 argument2
+# Attempting to use iscc_demo
 
 COPY . .
 
